@@ -8,6 +8,11 @@ We rely on external "Forge" modules as much as possible, and use r10k (https://g
 
 ```site/``` (site-specific modules) and ```dist/``` (generic modules that could be exported elsewhere)  directories contain locally developed modules. The ```modules/``` directory is automatically populated by r10k and nothing in there should be edited directly.
 
+Requirements
+------------
+* Virtualbox 5.x
+* Vagrant 1.7.4 or newer
+
 General notes
 -------------
 For the local install, we are using a CentOS Vagrant box (image) built internally. You could also get this working with your own EL6-based image, or using the images provided by Puppet Labs (http://puppet-vagrant-boxes.puppetlabs.com/).
